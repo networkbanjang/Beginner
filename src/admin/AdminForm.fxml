@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="601.0" prefWidth="1001.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/관리자메뉴.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="365.0" layoutY="459.0" mnemonicParsing="false" onAction="#cancel_proc" prefHeight="79.0" prefWidth="280.0" style="-fx-background-color: FFB84D; -fx-background-radius: 45;" text="로그아웃" textFill="#fffcfc" fx:id="xbutton">
+         <font>
+            <Font name="NanumBarunGothicOTF Bold" size="30.0" />
+         </font></Button>
+      <Button fx:id="reg_button" layoutX="244.0" layoutY="157.0" mnemonicParsing="false" onAction="#reg" prefHeight="241.0" prefWidth="226.0" style="-fx-background-color: FFB84D; -fx-background-radius: 44;" text="회원 관리">
+         <font>
+            <Font name="NanumBarunGothicOTF Bold" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="song_button" layoutX="529.0" layoutY="157.0" mnemonicParsing="false" onAction="#song" prefHeight="241.0" prefWidth="226.0" style="-fx-background-color: #83CE8F; -fx-background-radius: 45;" text="노래 등록">
+         <font>
+            <Font name="NanumBarunGothicOTF Bold" size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
